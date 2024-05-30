@@ -1,0 +1,25 @@
+Usuários cadastrados:
+
+1- admin@gmail.com (Admin)
+senha: admin
+
+2- fabiana@sesisp.org.br (Bibliotecária)
+senha: fafa4321
+
+3- mauricio@gmail.com (Autor)
+senha: maumau4321
+
+4- stanlee@gmail.com (Autor)
+senha: 
+
+5- paulo@gmail.com (Usuário)
+senha: paulin123
+
+
+Faltou até o momento: 
+Tela do Autor e Bibliotecária no Front. 
+Criei os grupos no DjangoAdmin e passei as permissões
+
+Regra de só poder emprestar 3 livros.
+
+ChatBot.

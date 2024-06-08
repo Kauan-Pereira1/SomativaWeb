@@ -1,1 +1,1 @@
-export const BACKEND_URL = 'https://somativaweb-production.up.railway.app/api/auth';
+export const BACKEND_URL = 'https://somativaweb-production-ea9f.up.railway.app/api/auth';

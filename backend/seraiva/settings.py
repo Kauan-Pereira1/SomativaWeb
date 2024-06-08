@@ -32,8 +32,8 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1/',
     'https://somativa-web.vercel.app/',
     'https://somativa-web.vercel.app/*',
-    'https://somativaweb-production.up.railway.app',
-    'https://somativaweb-production.up.railway.app/*',
+    'https://somativaweb-production-ea9f.up.railway.app',
+    'https://somativaweb-production-ea9f.up.railway.app/*',
 
 ] 
 
@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'djoser',
+    'whitenoise.runserver_nostatic',
     'app'
 ]
 

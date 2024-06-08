@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     '~/assets/global.scss',
   ],
   auth: {
-    baseURL: 'http://localhost:8000',
+    baseURL: 'https://somativaweb-production-ea9f.up.railway.app',
     provider: {
       type: 'local',
       endpoints: {

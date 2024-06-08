@@ -15,6 +15,10 @@ senha:
 5- paulo@gmail.com (Usuário)
 senha: paulin123
 
+Links Deploy:
+somativaweb-production-ea9f.up.railway.app
+https://somativa-web.vercel.app/
+
 
 Faltou até o momento: 
 Tela do Autor e Bibliotecária no Front. 

@@ -14,6 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,6 +27,15 @@ SECRET_KEY = 'django-insecure-%c*^6zs@-z^l_7g2y_*zj5jwb1&=-u=&b*0g&uhifw#dh$gfnh
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost/',
+    'http://127.0.0.1/',
+    'https://somativa-web.vercel.app/',
+    'https://somativa-web.vercel.app/*',
+    'https://somativaweb-production.up.railway.app',
+    'https://somativaweb-production.up.railway.app/*',
+
+] 
 
 
 # Application definition
@@ -49,6 +59,7 @@ AUTH_USER_MODEL = "app.UsuarioCustomizado"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',

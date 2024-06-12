@@ -35,6 +35,8 @@ atualizarLivros();
                 <LivroItem :key="index" class="col-4" :livro="livro" @eventoAdicionado="show" />
             </div>
         </div>
+        <iframe width="350" height="430" allow="microphone;"
+            src="https://console.dialogflow.com/api-client/demo/embedded/750ec0c7-843c-4554-b20b-e8b77384394b"></iframe>
     </main>
 </template>
 

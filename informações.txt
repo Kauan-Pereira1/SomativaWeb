@@ -25,5 +25,3 @@ Tela do Autor e Bibliotecária no Front.
 Criei os grupos no DjangoAdmin e passei as permissões
 
 Regra de só poder emprestar 3 livros.
-
-ChatBot.
